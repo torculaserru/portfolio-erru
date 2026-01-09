@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_lottie
 
 #st.logo(sidebar_logo, icon_image=main_body_logo)
 
