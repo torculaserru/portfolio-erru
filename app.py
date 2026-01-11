@@ -18,7 +18,8 @@ pages = {
     "": [
         st.Page("pages/home.py", title="Erru Torculas", default=True),
         st.Page("pages/papers.py", title="Papers", icon=":material/stacks:"),
-        st.Page("pages/talks.py", title="Talks", icon=":material/comic_bubble:"),
+        st.Page("pages/engagements.py", title="Engagements", icon=":material/award_star:"),
+        st.Page("pages/digital.py", title="Software/Tools", icon=":material/folder_code:"),
         st.Page("pages/projects.py", title="All Projects", icon=":material/tactic:"),
     ],
     "Projects": [

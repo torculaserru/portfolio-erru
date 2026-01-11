@@ -10,7 +10,7 @@ with st.container():
             st.image("assets/sablay.jpg")
     with col2:
         st.title("Erru Torculas")
-        st.text("I am a university researcher of the Marine Science Institute at the University of the Philippines Diliman. I work at the intersection of data science, geospatial intelligence, and marine/climate science. I am driven by building forecasting, intelligent systems that integrate AI or machine learning and coastal observations to address environmental issues that are simulated through models over time.", text_alignment="justify")
+        st.text("I am a university researcher of the Marine Science Institute at the University of the Philippines Diliman. I work at the intersection of data science, geospatial intelligence, and marine/climate science. I am driven by building forecasting, intelligent systems that integrate AI or machine learning and coastal observations to address environmental and anthropogenic issues.", text_alignment="justify")
         with st.container(horizontal=True, horizontal_alignment="distribute"):
             st.link_button("Email", type="secondary",  url="mailto:torculas.erru@gmail.com", icon=":material/mail:")
             st.link_button("Github", type="secondary", url="https://github.com/errutorculas", icon=":material/merge:")
@@ -36,5 +36,6 @@ st.markdown(
 )
 
 st.divider(width="stretch")
-
+st.write(""" > Data is a significant facet of unraveling root causes that disrupt communities. To have an insight, we must first be burdened with the realities that data reveal""")
+st.divider(width="stretch")
 #st.space("medium")
