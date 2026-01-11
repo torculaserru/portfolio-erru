@@ -25,7 +25,7 @@ pages = {
         st.Page("pages/projects/frai.py", title="frAI", icon=":material/eye_tracking:"),
         st.Page("pages/projects/healthmap.py", title="ATIPAN Health Map", icon=":material/health_metrics:"),
         st.Page("pages/projects/habits.py", title="HABiTS", icon=":material/microbiology:"),
-        st.Page("pages/projects/idk.py", title="ATIPAN Health Map", icon=":material/health_metrics:"),
+        st.Page("pages/projects/aciids.py", title="Energy Time Series Forecasting", icon=":material/bolt:"),
         # st.Page("pages/projects/frai.py", title="frAI", icon=":material/eye_tracking:"),
         # st.Page("pages/projects/frai.py", title="frAI", icon=":material/eye_tracking:"),
         #st.Page("trial.py", title="Try it out"),

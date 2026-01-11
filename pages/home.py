@@ -23,7 +23,7 @@ st.divider(width="stretch")
 st.subheader("Research Interests")
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Research Experience", "2+ years", "1+ year as Software Developer", border=True)
+col1.metric("Research Experience", "2+ years", "1+ year as Software Dev", border=True)
 col2.metric("Research Domains", "3", "Marine • Health • AI", border=True)
 col3.metric("Citations", "3", "+1 in 2025", border=True)
 st.caption("Source: Google Scholar • Updated Jan 2026")

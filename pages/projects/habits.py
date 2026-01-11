@@ -13,7 +13,7 @@ st.subheader("System Concept and Architecture")
 st.write("HABItS combines three complementary information streams:")
 st.write("""- **Satellite Remote Sensing**: Detection of spatial patterns and temporal trends associated with algal blooms""")
 with st.container():
-    st.write("**Google Earth Engine - Sentinel 3**")
+    st.write(""" > **Google Earth Engine - Sentinel-3 OLCI EFR: Ocean and Land Color Instrument Earth Observation Full Resolution**""")
     st.write("Analyzed using Normalized Difference Chlorophyll Index to isolate pigmented waters through various band")
     st.latex(r'''NDCI= \frac{B5-B4}{B5+B4}''')
     st.caption("B5 is red band wavelength and B4 is the Red-edge band wavelength")
