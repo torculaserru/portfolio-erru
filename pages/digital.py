@@ -1,8 +1,5 @@
 import streamlit as st
 
-# st.title("")
-
-
 col1, col2 = st.columns(2)
 
 with col1:
@@ -132,10 +129,3 @@ with col2:
 
             st.image("assets/digital/mapbox.png", width=80)
             st.write("Mapbox")
-    
-
-
-# with st.container():
-#     with st.container(horizontal=True, border=True, horizontal_alignment="left", vertical_alignment="center"):
-#         st.write("**Operating Systems**")
-#         st.write(" Microsoft Windows, UNIX systems (macOS, Linux - Ubuntu) macOS")
