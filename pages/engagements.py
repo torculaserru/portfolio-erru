@@ -17,8 +17,97 @@ selected = st.multiselect(
 st.divider()
 
 if "Talks & Workshops" in selected:
-    st.header("Talks and Workshops")
-    st.write("Working... Under Construction...")
+    st.header(":material/comic_bubble: Talks and Workshops")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Facilitator & Speaker", icon=":material/emoji_people:", color="violet")
+        st.subheader("Ocean Data and BN-GIS Training as Support Tools for Marine Spatial Planning")
+        st.markdown(":yellow-background[Bureau of Fisheries and Aquatic Resources (BFAR) - FMA9 [FishCORE]] · :gray[ National]")
+        st.caption("Training to equip coastal and marine practitioners with the skills to obtain and process ocean data (model and observational), build simple Bayesian Network decision-support tool, and integrate with GIS for marine spatial planning and resource management. The event was held on November 11-14 in Cagayan de Oro, Philippines")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://www.canva.com/design/DAG3yt0CnVg/m3_-fhFdiTdg5KlVQ4zE6w/view?utm_content=DAG3yt0CnVg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h30ac553f59")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Participant", icon=":material/emoji_people:", color="violet")
+        st.subheader("Cloud Native Ocean Data Analysis and Visualisation School")
+        st.markdown(":yellow-background[CMCC, the University of Bologna, and EGI] · :gray[ International]")
+        st.caption("Intensive, week-long training offers a unique opportunity for students and researchers to gain hands-on experience in coastal ocean modelling on the cloud, held on October 13-17, 2025 at the University of Bologna, Aula Biomedica, Department of Physics (Viale Berti Pichat 6/2)")
+        # with st.container(horizontal=True, horizontal_alignment="right"):
+        #         st.link_button(label="Link", icon=":material/visibility:", url="https://www.canva.com/design/DAG3yt0CnVg/m3_-fhFdiTdg5KlVQ4zE6w/view?utm_content=DAG3yt0CnVg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h30ac553f59")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Talk", icon=":material/record_voice_over:", color="yellow")
+            #st.badge("Speaker", icon=":material/emoji_people:", color="violet")
+        st.subheader("AI For Nature - Driving Sustainable Development Through AI and Greentech in the Philippines")
+        st.markdown(":yellow-background[Kenan Foundation Asia & AI Futuremakers] · :gray[ National]")
+        st.caption("Student-driven initiative supported by Kenan Foundation Asia through the 2025 YSEALI AI FutureMakers, dedicated to applying AI for marine conservation, empowering youth with tech and leadership for environmental protection.")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://www.facebook.com/ai4nature")
+    
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Participant", icon=":material/emoji_people:", color="violet")
+        st.subheader("AI Futuremakers - 2025 YSEALI Regional Workshop")
+        st.markdown(":yellow-background[Young Southeast Asian Leaders Initiative (YSEALI) & Kenan Foundation Asia] · :gray[ International]")
+        st.caption("The YSEALI AI FutureMakers Regional Workshop, held June 1-6 in Chonburi, Thailand, is an immersive, week-long program that brought together 56 youth leaders, social entrepreneurs, and tech enthusiasts from 11 countries across ASEAN and Timor-Leste. Fully funded by the U.S. Department of State and organized by the U.S. Embassy in Bangkok and Kenan Foundation Asia, the workshop focused on accelerating social impact through AI tools and innovation.")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.kenan-asia.org%2Fmedias%2Fyseali-aifuturemaker%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtXvqN4jozXYRYJSousNSXlowYRRicCrI9N67QkMOk6_P80GVti9FAVuAaYp_aem_2HpFJu0DCNYMlhdpznXWSg&h=AT0mCofXGMnLkWUnMPHIbee7LYFkIpNepqeL5gX_lfjPN9O5aWpgwXfevocAZ5mbujP6S7gmi7JE1f-XytdPzTnRGV0DL6GRKnutY08d-KOx62H6lQ8zr3gCTNmja2YfTfsepg-ZkSUmn_yA&__tn__=H-R&c[0]=AT0qaiB0MZylWSAXmj4zEVLUO9LSuLH_noeYy6C_OjRao_suuCCx3h99hj2AlMqXPz2mMLiNpn0TG2kKLFtc5gOH-HGe1lacG4QhmS_UGfpjWi6eUdg_-RhMr1eVL_z_LaIQs-zX2GzPT5woasfvvNFY8YanMFGkJBrTBSleQ6A7JT5j0VIeSiVtyXdPbZNIM5txSFImoVHXeXBI2tz4CMaG")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Participant", icon=":material/emoji_people:", color="violet")
+        st.subheader("Explainable Artificial Intelligence (XAI) for Public Policy: AI Informed Human Directed Public Policy Making")
+        st.markdown(":yellow-background[The UP Center for Integrative and Development Studies Program on Data Science for Public Policy (UP CIDS-DSPPP)] · :gray[ Bootcamp]")
+        st.caption("This bootcamp aims to empower the participants with the knowledge and practical skills needed to advance beyond the basics. Covering XAI in greater depth, fundamentals of Data Science and its Application to Artificial Intelligence using machine learning and traversing through the complexities of GIS alongside Governance Informatics (GI) and Big Data Analytics (BDA).")
+        # with st.container(horizontal=True, horizontal_alignment="right"):
+        #         st.link_button(label="Link", icon=":material/visibility:", url="https://drive.google.com/file/d/1y6F1M6s79SlUfY2HydflLF98f4FRMVuo/view?usp=sharing")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Participant", icon=":material/emoji_people:", color="violet")
+        st.subheader("Ocean Data Management")
+        st.markdown(":yellow-background[OceanTeacher Global Academy - The International Oceanographic Data and Information Exchange (IODE) of the Intergovernmental Oceanographic Commission (IOC) of UNESCO] · :gray[ Training Course]")
+        st.caption("Training course that is designed for marine data managers, data stewards and researchers, working in institutions responsible for the collection and good management of marine data. An introduction to several general aspects related to the management of marine data, including data formats, metadata, quality control, data policy, data sharing and publishing, data management plans and the research data life cycle.")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://drive.google.com/file/d/1y6F1M6s79SlUfY2HydflLF98f4FRMVuo/view?usp=sharing")
+    
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Facilitator · Media", icon=":material/emoji_people:", color="violet")
+        st.subheader("Local Stakeholders' Summit")
+        st.markdown(":yellow-background[University of the Philippines Center for Research and Awareness of Diverse Living Environments (UP CRADLE)] · :gray[ National]")
+        st.caption("The Local Stakeholders' Summit (LSS) was held last March 18-19, 2025, at the UP Center for Research and Awareness of Diverse Living Environments (CRADLE), Puerto Galera. The event brought together dedicated individuals and organizations to discuss the sustainable management of the 𝗣𝘂𝗲𝗿𝘁𝗼 𝗚𝗮𝗹𝗲𝗿𝗮 𝗕𝗶𝗼𝘀𝗽𝗵𝗲𝗿𝗲 𝗥𝗲𝘀𝗲𝗿𝘃𝗲 (𝗣𝗚𝗕𝗥). Through meaningful dialogue, collaboration, and community-driven solutions, we took a step forward in strengthening environmental resilience and local livelihoods.")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://www.facebook.com/share/p/1B46yyLvRR/")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Participant & Facilitator", icon=":material/emoji_people:", color="violet")
+        st.subheader("COMPASS Philippines - Coastal Observing and Modeling for Prediction and Assessment to Support Resilient Systems")
+        st.markdown(":yellow-background[CoastPredict UN Ocean Decade GOOS Programme, SUSTAIN Program, CMCC Foundation] · :gray[ Training Course]")
+        st.caption("The training focuses on advancing skills in coastal ocean, wave, and biogeochemical modeling, and introduces innovations in observation and remote sensing, that could be deployed to strengthen coastal resilience in the Philippines. A key feature of the course is hands-on training using the SURF ocean modeling platform, enabling participants to simulate real-world scenarios through detailed tutorials and case studies, centered on the Philippine coastal region. The program emphasizes integrating physical, biological, and chemical processes in marine systems to support the protection and sustainable management of natural resources")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://drive.google.com/file/d/1kRooNL0UzpctVkJWGD4Ha25fWDKr3fkK/view?usp=sharing")
+    
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Talk", icon=":material/record_voice_over:", color="yellow")
+            #st.badge("Speaker", icon=":material/emoji_people:", color="violet")
+        st.subheader("Computer Science Society - Data Science in Action: Bridging Technological Research and Positive Change")
+        st.markdown(":yellow-background[Universtity of the St. La Salle - Bacolod] · :gray[ Local]")
+        st.caption("Delivered a talk for final year undergraduate students of Computer Science Society held on October 14, 2024. Discussed the valuable importance of data science and reseach for social good")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://drive.google.com/file/d/1oJOpWo0vGaliNAMidrZ9s1YUyWxM9oNW/view?usp=sharing")
 
     # with st.container(border=True):
     #     st.badge("Talk", icon=":material/co_present:", color="blue")
