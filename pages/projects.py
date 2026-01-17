@@ -45,6 +45,7 @@ with st.container():
                 st.badge("Peer-reviewed Paper", icon=":material/grading:", color="violet")
             st.markdown("**Forecasting Energy Consumption in the Philippines Using Machine Learning Algorithms**")
             st.caption("This research investigates the use of machine learning algorithms to forecast national energy consumption in the Philippines, with particular emphasis on structural changes introduced by the COVID-19 pandemic. By modeling both pre-pandemic and pandemic periods, the study evaluates how different machine learning approaches respond to abrupt socio-economic disruptions in time-series energy data.")
+            st.space(2)
             with st.container(horizontal=True, horizontal_alignment="right", vertical_alignment="center"):
                 st.link_button("Paper", type="tertiary", url="https://doi.org/10.1007/978-3-031-42430-4_35", icon=":material/attach_file:")
                 st.page_link(label="View", icon=":material/visibility:", page="pages/projects/aciids.py")
