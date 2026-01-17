@@ -32,7 +32,7 @@ with st.container():
             with st.container(horizontal=True):
                 st.badge("Applied Research", icon=":material/co_present:", color="green")
                 st.badge("Conference Paper", icon=":material/podium:", color="violet")
-            st.markdown("**HABItS: A Harmful Algal Bloom Intelligent System for Early Warning and Community-Centered Coastal Risk Management**")
+            st.markdown("**HABITS: An Early-Warning Intelligent System Integrating Remote Sensing and Deep Learning for Harmful Algal Bloom Detection and Species Identification**")
             st.caption("The Harmful Algal Bloom Intelligent System (HABItS) is an AI-powered early warning platform designed to detect, classify, and forecast harmful algal blooms (HABs) in Philippine coastal waters. The system integrates remote sensing, machine learning-based plankton classification, and local ecological knowledge to transform satellite data and community observations into actionable risk alerts for small-scale fishers and coastal stakeholders")
             
             with st.container(horizontal_alignment="right"):

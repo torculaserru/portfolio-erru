@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("**HABItS: A Harmful Algal Bloom Intelligent System for Early Warning and Community-Centered Coastal Risk Management**")
+st.header("**HABITS: An Early-Warning Intelligent System Integrating Remote Sensing and Deep Learning for Harmful Algal Bloom Detection and Species Identification**")
 st.divider(width="stretch")
 
 st.subheader("Background and Motivation")
