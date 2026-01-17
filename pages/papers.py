@@ -23,7 +23,7 @@ papers = [
         "type": "Conference",
         "badge_icon": ":material/co_present:",
         "badge_color": "green",
-        "title": "Harmful Algal Bloom Inteligent System (HABItS): An early warning sign platform of Harmful Algal Blooms through remote sensing",
+        "title": "HABITS: An Early-Warning Intelligent System Integrating Remote Sensing and Deep Learning for Harmful Algal Bloom Detection and Species Identification",
         "authors": "Erru Torculas and Sherlon Salupas",
         "caption": "8th International Conference for Fisheries and Aquatic Sciences (ICFAS), Iloilo City, Philippines, November 2025",
     },
