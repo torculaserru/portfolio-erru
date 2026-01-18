@@ -20,15 +20,13 @@ with st.container():
 
 st.divider(width="stretch")
 
-st.subheader("Research Interests")
-
 col1, col2, col3 = st.columns(3)
 col1.metric("Research Experience", "2+ years", "1+ year as Software Dev", border=True)
 col2.metric("Research Domains", "3", "Marine • Health • AI", border=True)
 col3.metric("Citations", "3", "+1 in 2025", border=True)
 st.caption("Source: Google Scholar • Updated Jan 2026")
 
-
+st.subheader("Research Interests")
 st.markdown(
     '''
     My research interests include (1) :green-badge[:material/modeling: Ecosystem Modeling and Complex Systems] specifically biogeochemical and fuzzy models; (2) :orange-badge[:material/neurology: Machine Learning and Artificial Intelligence (ML/AI)], especially intelligent systems and explainable AI; and (3) :violet-badge[:material/modeling: Geo-information Science and Earth Observation] particularly in energy, marine, and climate sciences.

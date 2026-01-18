@@ -64,3 +64,9 @@ st.divider(width="stretch")
 st.image("assets/frai/18.png")
 st.subheader("Impact and Applications")
 st.write("""The frAI system enables fish farmers to determine optimal stocking densities, leading to better pond management, increased production efficiency, and improved profitability. Beyond operational gains, the project highlights how AI adoption in fisheries can contribute to sustainable aquaculture practices and data-driven decision-making in developing economies""")
+
+st.divider(width="stretch")
+with st.container():
+    with st.container(horizontal=True, border=True, horizontal_alignment="left", vertical_alignment="center"):
+        st.write("frAI Project")
+        st.link_button("Go to Github Repository",  url="https://github.com/GravitonXD/Fry-Counter-Project", icon=":material/arrow_forward:")
