@@ -37,3 +37,5 @@ st.divider(width="stretch")
 st.write(""" > Data is a significant facet of unraveling root causes that disrupt communities. To have an insight, we must first be burdened with the realities that data reveal""")
 st.divider(width="stretch")
 #st.space("medium")
+
+st.image("assets/div.jpg")
