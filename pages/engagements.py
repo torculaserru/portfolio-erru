@@ -170,6 +170,7 @@ if "Awards & Recognition" in selected:
         st.caption("Awarded SGD 4,650 for full programme ride in summer school in entrepreneurship in NUS. Among the 5 delegates in the Philippines selected to be part of the programme.")
         with st.container(horizontal=True, horizontal_alignment="right"):
                 st.link_button(label="NUSSP", icon=":material/visibility:", url="https://enterprise.nus.edu.sg/education-programmes/summer-programme/")
+                st.link_button(label="Transcript", icon=":material/article_shortcut:", url="https://drive.google.com/file/d/1kV91d1zGnnWxhIrCzcL0F2ReIv6Gh8RV/view?usp=sharing")
 
     with st.container(border=True):
         st.badge("Hackathon", icon=":material/smart_toy:", color="blue")

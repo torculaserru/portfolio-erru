@@ -34,7 +34,7 @@ papers = [
         "badge_color": "grey",
         "title": "Toward Sustainable Computing in Hyperscale Data Centers: Evaluating Memory Management and Scheduling Mechanisms for Carbon-Aware Resource Management Optimization in Large-Scale Distributed Systems",
         "authors": "Erru Torculas",
-        "caption": "Preprint – Abstract Submission",
+        "caption": "Preprint – Journal Submission",
     },
     {
         "year": "2025",
