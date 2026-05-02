@@ -23,6 +23,16 @@ if "Talks & Workshops" in selected:
         with st.container(horizontal=True):
             st.badge("Workshop", icon=":material/crowdsource:", color="orange")
             st.badge("Facilitator & Speaker", icon=":material/emoji_people:", color="violet")
+        st.subheader("Applied Oceanography for Fisheries Management (AOFM)")
+        st.markdown(":yellow-background[Department of Agriculture - Bureau of Fisheries and Aquatic Resources (DA-BFAR)] · :gray[ National]")
+        st.caption("A workshop to equip key representatives of the DA-BFAR Central and Regional Offices and NFRDI with a practical understanding of how ocean observations, oceanographic analyses, and modelling can support fisheries management decisions; and to jointly identify feasible pathways for establishing an operational and repeatable decision-support process. The event was held on March 16-19, 2026 in Quezon City, Philippines")
+        with st.container(horizontal=True, horizontal_alignment="right"):
+                st.link_button(label="Link", icon=":material/visibility:", url="https://canva.link/68oey614w9k7qj0")
+
+    with st.container(border=True):
+        with st.container(horizontal=True):
+            st.badge("Workshop", icon=":material/crowdsource:", color="orange")
+            st.badge("Facilitator & Speaker", icon=":material/emoji_people:", color="violet")
         st.subheader("Ocean Data and BN-GIS Training as Support Tools for Marine Spatial Planning")
         st.markdown(":yellow-background[Bureau of Fisheries and Aquatic Resources (BFAR) - FMA9 [FishCORE]] · :gray[ National]")
         st.caption("Training to equip coastal and marine practitioners with the skills to obtain and process ocean data (model and observational), build simple Bayesian Network decision-support tool, and integrate with GIS for marine spatial planning and resource management. The event was held on November 11-14 in Cagayan de Oro, Philippines")
